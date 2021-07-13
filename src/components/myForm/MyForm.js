@@ -23,8 +23,8 @@ function MyForm(props) {
       <p>sukhbir's assignemt for Nexgen</p>
       <div className={styles.container}>
         	<input placeholder="  employee_name" value={employee_name} onChange={(e)=>setEmployee_name(e.target.value)} required/>
-      		<input placeholder="  employee_salary" value={employee_salary} onChange={(e)=>setEmployee_salary(e.target.value)} required/>
-      		<input placeholder="  employee_age " value={employee_age} onChange={(e)=>setEmployee_age(e.target.value)} required/>
+      		<input placeholder="  employee_salary" type="number" min="0" value={employee_salary} onChange={(e)=>setEmployee_salary(e.target.value)} required/>
+      		<input placeholder="  employee_age " type="number" min="0" max="100" value={employee_age} onChange={(e)=>setEmployee_age(e.target.value)} required/>
       		<input placeholder="  profile_image URl" value={profile_image} onChange={(e)=>setProfile_image(e.target.value)}/>
     	  	<button type="submit" onClick={()=>addThisWord(employee_name,employee_salary,employee_age,profile_image)}>Add</button>
       </div>

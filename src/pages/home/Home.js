@@ -1,6 +1,5 @@
 import styles from './home.module.css';
 import { useEffect,useState } from 'react'
-import { DATAA } from '../../data'
 import searchIcon from './search.svg'
 
 //components
