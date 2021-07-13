@@ -1,0 +1,12 @@
+.wrapper{
+	display: flex;
+}
+.search {
+	margin-bottom: 10px;
+	margin-top: 40px;
+	width: 99%;
+	height: 40px;
+	border:solid 1px #bb6f6f;
+	border-radius: 10px;
+
+}
