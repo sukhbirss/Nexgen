@@ -14,10 +14,9 @@ function Home() {
 		setData(JSON.parse(localStorage.getItem("data")))
 	}
 	else{
-	// 		nexgen.get("/employees").then((res) =>{
-	// console.log(res)
- // 	      setData(res.data.data)})
-		setData(DATAA)
+		nexgen.get("/deb1fcca441912d3541c").then((res) =>{
+ 	    setData(res.data.data)})
+		// setData(DATAA)
 	}
 	}, [])
 

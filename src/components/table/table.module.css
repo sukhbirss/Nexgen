@@ -3,6 +3,7 @@
 	overflow-y: scroll;
 	height: calc(90vh - 100px);
 	padding-top: 10px;
+  	animation: tables 1s;
 }
 table {
   font-family: arial, sans-serif;
@@ -42,4 +43,13 @@ td, th {
 }
 .loading .bounce3{
 	background-color: #f2554b;
+}
+
+@keyframes tables {
+  from {
+    transform: translateX(150%);
+  }
+  to {
+    transform: translateX(0%);
+  }
 }

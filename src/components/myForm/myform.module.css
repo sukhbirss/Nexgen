@@ -36,6 +36,10 @@
 	background-color: #ff005e;
 	cursor: pointer;
 }
+.wrapper > h1{
+	animation-delay: 2s;
+	animation: title 2s;
+}
 /*@keyframes shake {
   0% { transform: translate(1px, 1px) rotate(0deg); }
   10% { transform: translate(-1px, -2px) rotate(-1deg); }
@@ -55,5 +59,15 @@
   }
   to {
     transform: translateY(0%);
+  }
+}
+@keyframes title {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
   }
 }
