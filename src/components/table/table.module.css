@@ -53,3 +53,18 @@ td, th {
     transform: translateX(0%);
   }
 }
+
+
+
+@media screen and (max-width: 600px) {
+  .table{
+	width: 98vw;
+	overflow-y: scroll;
+	height: calc(90vh - 100px);
+	padding-top: 10px;
+  	animation: tables 1s;
+  	align-self: center;
+  	margin:0 auto;
+  	padding-bottom: 20px;
+}
+}

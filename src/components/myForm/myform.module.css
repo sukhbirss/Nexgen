@@ -53,6 +53,43 @@
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }*/
+@media screen and (max-width: 600px) {
+  .wrapper{
+    width: 100vw;
+    height: 90vh;
+  }
+  .container{
+	display: flex;
+	flex-direction: column;
+	width: 90vw;
+	height: 480px;
+	align-items: center;
+	justify-content: center;
+	border-radius: 20px;
+	animation: animation 2s;
+  	box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    background-color: #f9f9f9;
+
+}
+.container  > input{
+	width: 70%;
+	height: 40px;
+	margin-bottom: 30px;
+	border-radius: 10px;
+	border:solid 1px #e2e2e2;
+}
+.container  > button{
+	width: 70%;
+	height: 40px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	border:solid 1px #d4e5ff;
+	background-color: #ff005e;
+	cursor: pointer;
+}
+}
+
 @keyframes animation {
   from {
     transform: translateY(-150%);
@@ -71,3 +108,4 @@
     transform: scale(1);
   }
 }
+
