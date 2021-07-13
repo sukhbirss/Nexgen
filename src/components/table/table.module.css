@@ -3,7 +3,8 @@
 	overflow-y: scroll;
 	height: calc(90vh - 100px);
 	padding-top: 10px;
-  	animation: tables 1s;
+  animation: tables 1s;
+  padding-right: 20px;
 }
 table {
   font-family: arial, sans-serif;
@@ -19,31 +20,6 @@ td, th {
 
 
 
-.loading > div {
-  width: 18px;
-  height: 18px;
-  background-color: #333;
-  border-radius: 100%;
-  display: inline-block;
-  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
-  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
-}
-
-.loading .bounce1 {
-  -webkit-animation-delay: -0.32s;
-  animation-delay: -0.32s;
-  background-color: #f2554b;
-}
-
-.loading .bounce2 {
-  -webkit-animation-delay: -0.16s;
-  animation-delay: -0.16s;
-  background-color: #f2554b;
-
-}
-.loading .bounce3{
-	background-color: #f2554b;
-}
 
 @keyframes tables {
   from {
@@ -62,9 +38,9 @@ td, th {
 	overflow-y: scroll;
 	height: calc(90vh - 100px);
 	padding-top: 10px;
-  	animation: tables 1s;
-  	align-self: center;
-  	margin:0 auto;
-  	padding-bottom: 20px;
+  animation: tables 1s;
+  align-self: center;
+  margin:0 auto;
+  padding-bottom: 20px;
 }
 }
